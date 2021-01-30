@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: ff5166ccc425d60418e996337d06ac7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7920437022453264826
+    second: Untitled-1raccoon 1_0
+  - first:
+      213: -8963570499450184949
+    second: Untitled-1raccoon 1_1
+  - first:
+      213: 4614688720274665814
+    second: Untitled-1raccoon 1_2
+  - first:
+      213: 7739795914418730521
+    second: Untitled-1raccoon 1_3
+  - first:
+      213: -455308937555314431
+    second: Untitled-1raccoon 1_4
+  - first:
+      213: 8176322438877565431
+    second: Untitled-1raccoon 1_5
+  - first:
+      213: -5013433582386106240
+    second: Untitled-1raccoon 1_6
+  - first:
+      213: -871739093382485122
+    second: Untitled-1raccoon 1_7
+  - first:
+      213: 3265499827382586843
+    second: Untitled-1raccoon 1_8
+  - first:
+      213: 6491288054135748659
+    second: Untitled-1raccoon 1_9
+  - first:
+      213: 7466750679758479838
+    second: Untitled-1raccoon 1_10
+  - first:
+      213: -4134602269751403426
+    second: Untitled-1raccoon 1_11
+  - first:
+      213: -722152680931520744
+    second: Untitled-1raccoon 1_12
+  - first:
+      213: -95514489602281001
+    second: Untitled-1raccoon 1_13
+  - first:
+      213: -2694321380466897145
+    second: Untitled-1raccoon 1_14
+  - first:
+      213: 8484612382833066011
+    second: Untitled-1raccoon 1_15
+  - first:
+      213: 6894975209664652991
+    second: Untitled-1raccoon 1_16
+  - first:
+      213: 736443367498191710
+    second: Untitled-1raccoon 1_17
+  - first:
+      213: 7773975538479764614
+    second: Untitled-1raccoon 1_18
+  - first:
+      213: -2043418676232473106
+    second: Untitled-1raccoon 1_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1086
+        width: 1626
+        height: 1340
+      alignment: 9
+      pivot: {x: 0.55117863, y: 0.04098538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1fd25f18b0bed60800000000000000
+      internalID: 7920437022453264826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_1
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2106
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bd91d2f100b9380800000000000000
+      internalID: -8963570499450184949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_2
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1333
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65139f001faaa0040800000000000000
+      internalID: 4614688720274665814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_3
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 425
+        width: 636
+        height: 555
+      alignment: 9
+      pivot: {x: 0.5056887, y: 0.07625672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916b2f08067496b60800000000000000
+      internalID: 7739795914418730521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_4
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 971
+        width: 61
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10974f10fea6ea9f0800000000000000
+      internalID: -455308937555314431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_5
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 414
+        width: 399
+        height: 566
+      alignment: 9
+      pivot: {x: 0.02846594, y: 0.93468463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f15a5a20f1287170800000000000000
+      internalID: 8176322438877565431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 312
+        width: 492
+        height: 632
+      alignment: 9
+      pivot: {x: 0.88975585, y: 0.91791475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080bcd818b4bc6ab0800000000000000
+      internalID: -5013433582386106240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_7
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 560
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bad1ac9e5f6e3f0800000000000000
+      internalID: -871739093382485122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_8
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 51
+        width: 381
+        height: 391
+      alignment: 9
+      pivot: {x: 0.39553985, y: 0.7590972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0d39aac2615d20800000000000000
+      internalID: 3265499827382586843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_9
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 403
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3387f79c710b51a50800000000000000
+      internalID: 6491288054135748659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_10
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 401
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed12965ce2a3f9760800000000000000
+      internalID: 7466750679758479838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_11
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 402
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c91f74421fe96c0800000000000000
+      internalID: -4134602269751403426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 394
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f0b7b76f56af5f0800000000000000
+      internalID: -722152680931520744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 359
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d17a58e31aacaef0800000000000000
+      internalID: -95514489602281001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 24
+        width: 480
+        height: 365
+      alignment: 9
+      pivot: {x: 0.6507543, y: 0.8766799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fc786caf8db9ad0800000000000000
+      internalID: -2694321380466897145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_15
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 153
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1045af32066fb570800000000000000
+      internalID: 8484612382833066011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_16
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 112
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6af2b0c6fdfaf50800000000000000
+      internalID: 6894975209664652991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_17
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 95
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e531ce4475f583a00800000000000000
+      internalID: 736443367498191710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_18
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 53
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68499af5095b2eb60800000000000000
+      internalID: 7773975538479764614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-1raccoon 1_19
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 37
+        width: 41
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5b3cb5a8154a3e0800000000000000
+      internalID: -2043418676232473106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
