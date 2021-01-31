@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class UIManger : MonoBehaviour
 {
     private static UIManger instance;
+    [SerializeField]
+    private Animator tranAnimator;
     public Text playerTunaCount,liveCount;
     private  void Awake()
    {
@@ -26,13 +28,19 @@ public class UIManger : MonoBehaviour
        liveCount.text=livesremaing+"";
    }
      public void loadScene(int sceneindex){
-        SceneManager.LoadScene(sceneindex);
+        StartCoroutine(Transition(sceneindex));
+        //SceneManager.LoadScene(sceneindex);
      }
+
      public void gohell(){
           Application.Quit();
      }
 
-   
+   IEnumerator Transition(int sceneindex){
+        tranAnimator.SetTrigger("end");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(sceneindex);
+    }
 
 
 
