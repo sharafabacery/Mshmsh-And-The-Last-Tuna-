@@ -64,10 +64,10 @@ public class Player : MonoBehaviour
         if(healAmount+health>7){
                 health=7;
                     }else{
-
+        
            
             health+=healAmount;
-
+UIManger.Instance.UpdateLive(health);
         }
     }
 }
