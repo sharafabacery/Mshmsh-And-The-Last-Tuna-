@@ -271,7 +271,7 @@ MonoBehaviour:
   timeBetweenAttacks: 1
   healthPickup: {fileID: 8948117828451172817, guid: 88731b75edff6014da9cb0843e1bf80d, type: 3}
   tunaPickup: {fileID: 4185668480211291316, guid: 64b96a8ab518a2e49baf48c9f18a9f44, type: 3}
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 3655994157735863098, guid: a27222bb4f0cdd84b953842ab3b12e4f, type: 3}
   soundEffect: {fileID: 105231127625597536, guid: 702c83b7d4ec239429c0cfd8efc5e0e5, type: 3}
   head: {fileID: 7278689270389206737}
   attackSpeed: 10

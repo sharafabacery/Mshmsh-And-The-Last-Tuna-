@@ -8,7 +8,7 @@ public class Weapon : MonoBehaviour
     private float timeBetweenShots;
     [SerializeField]
     
-    private GameObject projectile;
+    private GameObject projectile,effect;
     [SerializeField]
     
     private Transform shotPoint;
@@ -35,7 +35,8 @@ public class Weapon : MonoBehaviour
             if (Time.time>shotTime)
             {
                 //Debug.Log("shot");
-                Instantiate(projectile,shotPoint.position,transform.rotation);
+               GameObject proj=(GameObject) Instantiate(projectile,shotPoint.position,shotPoint.rotation);
+                Instantiate(effect,proj.transform.position,proj.transform.rotation);
                 
                cameraAnim.SetTrigger("shake");
                 shotTime=Time.time+timeBetweenShots;

@@ -34,11 +34,12 @@ public class Enemy : MonoBehaviour
         health-=damageAmount;
         Instantiate(soundEffect);
         if(health<=0){
+            Instantiate(deathEffect,transform.position,transform.rotation);
             
             Instantiate(tunaPickup,transform.position,transform.rotation);
             int randHealth=Random.Range(0,101);
             if(randHealth<HealthPickupChance){
-                Instantiate(healthPickup,transform.position,transform.rotation);
+                Instantiate(healthPickup,transform.position+new Vector3(25,25),transform.rotation);
             }
          //  GameObject blood=(GameObject) Instantiate(deathEffect,transform.position,Quaternion.identity);
            //Destroy(blood,1f);

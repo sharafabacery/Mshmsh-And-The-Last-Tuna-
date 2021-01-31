@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TunaPickup : MonoBehaviour
 {
-    //[SerializeField]
+    [SerializeField]
+    private GameObject effect;
     //private int score;
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,7 @@ public class TunaPickup : MonoBehaviour
             other.GetComponent<Player>().scoreplusplus();
 //sound Effect
         //visual effect
+        Instantiate(effect,transform.position,transform.rotation);
         Destroy(gameObject);
 
         }
