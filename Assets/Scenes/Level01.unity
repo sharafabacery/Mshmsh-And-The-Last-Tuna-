@@ -2292,6 +2292,7 @@ MonoBehaviour:
   health: 7
   score: 0
   meow: {fileID: 2422839124766788754, guid: 053cb4d136ec93445af0ba273c42b4b5, type: 3}
+  head: {fileID: 1519116211}
 --- !u!4 &1493838229
 Transform:
   m_ObjectHideFlags: 0

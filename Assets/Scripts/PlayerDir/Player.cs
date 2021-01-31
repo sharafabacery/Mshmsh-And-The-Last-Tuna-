@@ -12,12 +12,15 @@ public class Player : MonoBehaviour
     [SerializeField]
     private int health,score;
     public GameObject meow;
+    [SerializeField]
+    private SpriteRenderer head;
 
     
     private Vector2 moveAmount;
     // Start is called before the first frame update
     void Start()
     {
+        
         rb=GetComponent<Rigidbody2D>();
         animator=GetComponent<Animator>();
         UIManger.Instance.UpdateLive(health);
@@ -27,7 +30,15 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 directionAxes=new Vector2(Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"));
+        float Horizontal=Input.GetAxisRaw("Horizontal");
+        if(Horizontal==1){
+            if(head.flipX==true)head.flipX=false;
+        }else if(Horizontal==-1){
+            if(head.flipX==false)head.flipX=true;
+        }else{
+            head.flipX=false;
+        }
+        Vector2 directionAxes=new Vector2(Horizontal,Input.GetAxisRaw("Vertical"));
         moveAmount=directionAxes.normalized*speed;
         if (directionAxes !=Vector2.zero)
         {
