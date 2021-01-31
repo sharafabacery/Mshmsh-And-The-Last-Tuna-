@@ -14,11 +14,11 @@ public class Weapon : MonoBehaviour
     private Transform shotPoint;
     
     private float shotTime;
-    
-    //Animator cameraAnim;
+    [SerializeField]
+    Animator cameraAnim;
 
     private void Start() {
-      //  cameraAnim=Camera.main.GetComponent<Animator>();
+        cameraAnim=Camera.main.GetComponent<Animator>();
     }
    
     // Update is called once per frame
@@ -36,7 +36,8 @@ public class Weapon : MonoBehaviour
             {
                 //Debug.Log("shot");
                 Instantiate(projectile,shotPoint.position,transform.rotation);
-          //      cameraAnim.SetTrigger("shake");
+                
+               cameraAnim.SetTrigger("shake");
                 shotTime=Time.time+timeBetweenShots;
             }
         }
