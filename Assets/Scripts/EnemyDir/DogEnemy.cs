@@ -5,6 +5,8 @@ using Pathfinding;
 public class DogEnemy : Enemy
 {
     [SerializeField]
+    private SpriteRenderer head;
+    [SerializeField]
     private float attackSpeed,stopDistance;
     private float attackTime;
     public AIPath ai;
@@ -12,7 +14,13 @@ public class DogEnemy : Enemy
     private void Update() {
        if(player!=null){
           // Debug.Log(Vector2.Distance(transform.position,player.position));
+           
             if(Vector2.Distance(transform.position,player.position)>stopDistance){
+                if(transform.position.x > player.transform.position.x){
+               if(head.flipX==false)head.flipX=true;
+                } else {
+               if(head.flipX==true)head.flipX=false;
+                }
                 transform.position=Vector2.MoveTowards(transform.position,player.position,speed*Time.deltaTime);
             }else{
                 
